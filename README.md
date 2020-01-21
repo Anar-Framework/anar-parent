@@ -6,7 +6,7 @@
 
 git clone https://github.com/Anar-Framework/anar-parent.git
 
-cd script/setup/
+cd anar-parent/script/setup/
 
 bash setup.sh
 ```
