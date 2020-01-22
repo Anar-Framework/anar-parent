@@ -42,6 +42,7 @@
 		<module>anar-servicetemplate</module>
 		<module>anar-webapptemplate</module>
 		<module>anar-keycloak</module>
+		<module>anar-datacollection-kit</module>
 	</modules>
 
 </project>

@@ -71,3 +71,5 @@ git clone https://github.com/Anar-Framework/anar-api.git
 git clone https://github.com/Anar-Framework/anar-docs.git
 
 git clone https://github.com/Anar-Framework/Anar-Identity.git
+
+git clone https://github.com/Anar-Framework/anar-datacollection-kit.git
