@@ -10,12 +10,13 @@
 
 
 	<modules>
+		<module>anar-accounting</module>
 		<module>anar-connect</module>
 		<module>anar-keycloack</module>
 		<module>anar-lib-activemq</module>
 		<module>anar-lib-api</module>
 		<module>anar-lib-audit</module>
-		<module>anar-lib-calender</module>
+		<module>anar-lib-calendar</module>
 		<module>anar-lib-checksum</module>
 		<module>anar-lib-core</module>
 		<module>anar-lib-cors</module>
@@ -39,10 +40,15 @@
 		<module>anar-lib-workflow</module>
 		<module>anar-lib-xml</module>
 		<module>anar-lib-zip</module>
+
+		<module>anar-docs</module>
+		<module>anar-keycloak-theme</module>
 		<module>anar-servicetemplate</module>
 		<module>anar-webapptemplate</module>
 		<module>anar-keycloak</module>
 		<module>anar-datacollection-kit</module>
+		<module>anar-identity-custom</module>
+		<module>anar-servicetemaplate-customidentity</module>
 	</modules>
 
 </project>
