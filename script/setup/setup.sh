@@ -70,6 +70,8 @@ git clone https://github.com/Anar-Framework/anar-lib-str.git
 
 git clone https://github.com/Anar-Framework/anar-lib-api.git
 
+git clone https://github.com/Anar-Framework/anar-lib-metrics.git
+
 git clone https://github.com/Anar-Framework/anar-docs.git
 
 git clone https://github.com/Anar-Framework/Anar-Identity.git
@@ -86,5 +88,3 @@ git clone https://github.com/Anar-Framework/anar-connect.git
 git clone https://github.com/Anar-Framework/anar-identity-custom.git
 
 git clone https://github.com/Anar-Framework/anar-servicetemaplate-customidentity.git
-
-git clone https://github.com/Anar-Framework/anar-accounting.git
