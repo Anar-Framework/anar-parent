@@ -40,7 +40,11 @@
 		<module>anar-lib-workflow</module>
 		<module>anar-lib-xml</module>
 		<module>anar-lib-zip</module>
-
+		<module>anar-lib-metrics</module>
+		<module>anar-lib-velocitytemplate</module>
+		<module>anar-lib-reportutil</module>
+		<module>anar-lib-jobs</module>
+		<module>anar-lib-html</module>
 		<module>anar-docs</module>
 		<module>anar-keycloak-theme</module>
 		<module>anar-servicetemplate</module>
@@ -49,6 +53,14 @@
 		<module>anar-datacollection-kit</module>
 		<module>anar-identity-custom</module>
 		<module>anar-servicetemaplate-customidentity</module>
+
+
+		<module>anar-assetmanagement</module>
+		<module>anar-spm</module>
+		<module>anar-cache</module>
+		<module>anar-hooks</module>
+		<module>anar-adhocquery</module>
+
 	</modules>
 
 </project>
