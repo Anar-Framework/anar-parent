@@ -12,7 +12,7 @@ regex="(git\:).*(\.git)"
 repoNameReg="[^\/]+$"
 
 # Get the list of repositories in Anar Framework
-REPOS=$(curl -X GET https://api.github.com/orgs/Anar-Framework/repos)
+REPOS=$(curl -X GET https://api.github.com/orgs/Anar-Framework/repos?per_page=100)
 
 # go to the parent directory first
 cd ../..
@@ -47,11 +47,13 @@ IFS=' '
 if [[ "${#REPOLIST[@]}" > 0 ]]; then
     # Clone the repos if not already cloned
     for val in "${!REPOLIST[@]}"; do
-        if [[ -d $val ]]; then
-            echo -e "\e[32mRepo ${val} already exist\e[39m"
-        else 
-            echo -e "\e[33mRepository ${val} does not exist\e[39m"
-            git clone ${REPOLIST[$val]}
+        if [[ $val != "anar-parent" ]]; then
+            if [[ -d $val ]]; then
+                echo -e "\e[32mRepo ${val} already exist\e[39m"
+            else 
+                echo -e "\e[33mRepository ${val} does not exist\e[39m"
+                git clone ${REPOLIST[$val]}
+            fi
         fi
     done
     else
