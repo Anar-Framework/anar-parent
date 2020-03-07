@@ -24,16 +24,15 @@
 | Print gathered URLs only and then exit.                   | `./setup.py --user user --include-gists --echo-urls`                 |
 
 
-# Compatibility #
+##### Compatibility #
 The project is compatible with both Python 2 and Python 3.
 
 
-# Requirements #
+#### Requirements #
 * Python2 or Python3
 * requests
 * gitpython
 
-# Testing
+#### Testing
 * nosetests -vx
-
 
