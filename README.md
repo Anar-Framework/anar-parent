@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 cd anar-parent/script/setup/python
 
-./githubcloner.py --org Anar-Framwork -o /your_path
+python setup.py --org Anar-Framwork -o /your_clone_path
 ```
 the script will clone all the required libraries and modules.
 
