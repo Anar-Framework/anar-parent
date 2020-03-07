@@ -260,9 +260,11 @@ def get_repopath(repo_username, repo_name, prefix_mode):
     if prefix_mode == "none":
         repopath = repo_name
     elif prefix_mode == "underscore":
-        repopath = repo_username + "_" + repo_name
+        #repopath = repo_username + "_" + repo_name
+        repopath = repo_name
     elif prefix_mode == "directory":
-        repopath = repo_username + "/" + repo_name
+        #repopath = repo_username + "/" + repo_name
+        repopath = repo_name
     return repopath
 
 
