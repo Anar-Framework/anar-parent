@@ -19,11 +19,11 @@ git clone https://github.com/Anar-Framework/anar-parent.git
 
 cd anar-parent
 
-pip install -r requirements.txt
+pip install -r ./requirements.txt
 
-mkdir anar-framework
+mkdir ./../anar-framework
 
-python anar-parent/script/setup/python/setup.py --org Anar-Framwork -o ./anar-framework/
+python ./script/setup/python/setup.py --org Anar-Framwork -o ./../anar-framework/
 ```
 the script will clone all the required libraries and modules.
 
