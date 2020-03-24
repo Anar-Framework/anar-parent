@@ -21,9 +21,9 @@ cd anar-parent
 
 pip install -r requirements.txt
 
-cd anar-parent/script/setup/python
+mkdir anar-framework
 
-python setup.py --org Anar-Framwork -o /your_clone_path
+python anar-parent/script/setup/python/setup.py --org Anar-Framwork -o ./anar-framework/
 ```
 the script will clone all the required libraries and modules.
 
