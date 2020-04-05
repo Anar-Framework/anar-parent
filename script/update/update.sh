@@ -1,0 +1,52 @@
+#!/bin/bash
+
+git pull ./../anar-framework/anar-accounting
+git pull ./../anar-framework/anar-connect
+git pull ./../anar-framework/anar-keycloack
+git pull ./../anar-framework/anar-lib-activemq
+git pull  ./../anar-framework/anar-lib-api
+git pull ./../anar-framework/anar-lib-audit
+git pull ./../anar-framework/anar-lib-calendar
+git pull  ./../anar-framework/anar-lib-checksum
+git pull  ./../anar-framework/anar-lib-core
+git pull ./../anar-framework/anar-lib-cors
+git pull  ./../anar-framework/anar-lib-crypto
+git pull ./../anar-framework/anar-lib-crypto-jce
+git pull ./../anar-framework/anar-lib-csv
+git pull ./../anar-framework/anar-lib-date
+git pull ./../anar-framework/anar-lib-emptycheck
+git pull ./../anar-framework/anar-lib-excel
+git pull  ./../anar-framework/anar-lib-file
+git pull ./../anar-framework/anar-lib-hash
+git pull ./../anar-framework/anar-lib-hmac
+git pull  ./../anar-framework/anar-lib-json
+git pull  ./../anar-framework/anar-lib-kafka
+git pull  ./../anar-framework/anar-lib-logger
+git pull  ./../anar-framework/anar-lib-mail
+git pull  ./../anar-framework/anar-lib-math
+git pull ./../anar-framework/anar-lib-pdf
+git pull ./../anar-framework/anar-lib-str
+git pull  ./../anar-framework/anar-lib-uuid
+git pull  ./../anar-framework/anar-lib-workflow
+git pull  ./../anar-framework/anar-lib-xml
+git pull  ./../anar-framework/anar-lib-zip
+git pull  ./../anar-framework/anar-lib-metrics
+git pull ./../anar-framework/anar-lib-velocitytemplate
+git pull  ./../anar-framework/anar-lib-reportutil
+git pull ./../anar-framework/anar-lib-jobs
+git pull ./../anar-framework/anar-lib-html
+git pull  ./../anar-framework/anar-docs
+git pull  ./../anar-framework/anar-keycloak-theme
+git pull  ./../anar-framework/anar-servicetemplate
+git pull ./../anar-framework/anar-webapptemplate
+git pull ./../anar-framework/anar-keycloak
+git pull  ./../anar-framework/anar-datacollection-kit
+git pull  ./../anar-framework/anar-identity-custom
+git pull ./../anar-framework/anar-servicetemaplate-customidentity
+
+
+git pull  ./../anar-framework/anar-assetmanagement
+git pull ./../anar-framework/anar-spm
+git pull ./../anar-framework/anar-cache
+git pull  ./../anar-framework/anar-hooks
+git pull  ./../anar-framework/anar-adhocquery
