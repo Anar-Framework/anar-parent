@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>af.gov.anar</groupId>
 	<artifactId>anar-framework</artifactId>
@@ -9,10 +9,11 @@
 	<description>Anar Framework</description>
 
 
+
 	<modules>
 		<module>anar-accounting</module>
 		<module>anar-connect</module>
-		<module>anar-keycloack</module>
+		<module>anar-docs</module>
 		<module>anar-lib-activemq</module>
 		<module>anar-lib-api</module>
 		<module>anar-lib-audit</module>
@@ -45,21 +46,24 @@
 		<module>anar-lib-reportutil</module>
 		<module>anar-lib-jobs</module>
 		<module>anar-lib-html</module>
-		<module>anar-docs</module>
+		<module>anar-lib-sms</module>
+		<module>anar-lib-hsm</module>
 		<module>anar-keycloak-theme</module>
 		<module>anar-servicetemplate</module>
 		<module>anar-webapptemplate</module>
 		<module>anar-keycloak</module>
 		<module>anar-datacollection-kit</module>
-		<module>anar-identity-custom</module>
-		<module>anar-servicetemaplate-customidentity</module>
-
-
-		<module>anar-assetmanagement</module>
-		<module>anar-spm</module>
+		<module>eBreshna</module>
+		<module>anar-servicetemplate-customidentity</module>
+		<module>anar-lib-businessworkingcalendar</module>
+		<module>anar-lib-hooks</module>
+		<module>anar-spm-survey</module>
 		<module>anar-cache</module>
-		<module>anar-hooks</module>
+		<module>eBreshna-web</module>
 		<module>anar-adhocquery</module>
+		<module>SIGTAS-web</module>
+		<module>SIGTAS</module>
+		<!--		<module>anar-identitycustom</module>-->
 
 	</modules>
 
